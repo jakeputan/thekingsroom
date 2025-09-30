@@ -8,7 +8,7 @@ function App() {
         <div className="wrap">
           <div className="logo">THE KING'S ROOM</div>
           <div className="navlinks">
-            <a href="#invitation">Blueprint</a>
+            <a href="#invitation">Invitation</a>
             <a href="#paths">Enter</a>
             <a href="#proof">Proof</a>
           </div>
