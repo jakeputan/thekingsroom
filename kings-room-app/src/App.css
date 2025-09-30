@@ -52,10 +52,11 @@ h1 {
 }
 
 .sub {
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
-    Helvetica, Arial;
+  font-family: "EB Garamond", ui-serif, Georgia, Cambria, "Times New Roman",
+    Times, serif;
   color: var(--muted);
   font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: 400;
 }
 
 .cta {
