@@ -23,12 +23,6 @@ function App() {
           <a href="#paths" className="cta">
             ↓ Enter The King's Room ↓
           </a>
-          <div className="pillars">
-            <span>Presence</span>
-            <span>Purity</span>
-            <span>Peace</span>
-            <span>Power</span>
-          </div>
         </div>
       </header>
 
@@ -53,7 +47,7 @@ function App() {
                 Join the next men's immersion — breath, sauna, ice, and ritual.
                 A reset for body, mind, and spirit.
               </p>
-              <a className="btn gold" href="#reserve">
+              <a className="btn gold" href="https://forms.gle/YB5kkwBDkPEm5Z8H7" target="_blank" rel="noopener noreferrer">
                 Reserve Your Place
               </a>
             </div>
@@ -63,7 +57,7 @@ function App() {
                 An 8-day digital reset. Daily practices to restore clarity,
                 discipline, and vitality.
               </p>
-              <a className="btn gold" href="#access">
+              <a className="btn gold" href="https://drive.google.com/drive/folders/1-1dSgXnpjAVctazMK4ZoNq_LMTuUMAbY?usp=sharing" target="_blank" rel="noopener noreferrer">
                 Get Instant Access
               </a>
             </div>
@@ -73,7 +67,7 @@ function App() {
                 An annual brotherhood circle. A seat at the table of men
                 committed to legacy.
               </p>
-              <a className="btn gold" href="#waitlist">
+              <a className="btn gold" href="https://forms.gle/YB5kkwBDkPEm5Z8H7" target="_blank" rel="noopener noreferrer">
                 Join the Waitlist
               </a>
             </div>
@@ -88,14 +82,17 @@ function App() {
             "This is how men are choosing to live again."
           </p>
           <div className="gallery" style={{ marginTop: "18px" }}>
-            <div className="ph">Ritual</div>
-            <div className="ph">Barber Chair</div>
-            <div className="ph">Ice Bath</div>
-            <div className="ph">Council</div>
+            <img src="/icebath.jpg" alt="Ice Bath" className="gallery-image" />
+
+            <img
+              src="/barbershop.jpg"
+              alt="Barber Chair"
+              className="gallery-image"
+            />
+            <img src="/fire.jpg" alt="Ritual" className="gallery-image" />
+
+            <img src="/sauna.jpg" alt="Sauna" className="gallery-image" />
           </div>
-          <p className="small center" style={{ marginTop: "12px" }}>
-            Replace placeholders with your images/video thumbnails.
-          </p>
         </div>
       </section>
 
