@@ -52,7 +52,8 @@ h1 {
 }
 
 .sub {
-  font-family: "EB Garamond", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "EB Garamond", ui-serif, Georgia, Cambria, "Times New Roman",
+    Times, serif;
   color: var(--muted);
   font-size: clamp(1rem, 2.5vw, 1.25rem);
   font-weight: 400;
@@ -159,6 +160,20 @@ section {
   display: grid;
   gap: 12px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #1a1a1a;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(200, 169, 107, 0.2);
 }
 
 @media (min-width: 900px) {
